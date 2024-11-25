@@ -1,0 +1,57 @@
+body {
+    background-color: hsla(0, 29%, 92%, 0.835);
+}
+.home {
+    background-image: url('/public/images/bg.webp');
+    backdrop-filter: saturate(50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.home h1 {
+    color: hsla(0, 29%, 92%, 0.835);
+}
+
+.home p {
+    color: hsla(0, 29%, 92%, 0.835);
+
+}
+
+.footer {
+    background-color: hsla(0, 0%, 0%, 0.29);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+
+}
+
+.footer li {
+    list-style: none;
+}
+
+.footer a {
+    font-size: 20px;
+    text-decoration: none;
+    color: hsla(0, 0%, 0%, 0.733);
+    transition: 0.3s;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
